@@ -1,0 +1,73 @@
+Breakout Plan:
+
+1. Breakout variant: Of the variants that I read about, my favorite was definitely Worms.
+The idea to "hide" power-ups inside the blocks led me to the idea of making the bricks 
+harm the paddle, even after the brick has been destroyed. This is a complement of the Worms
+version in which bricks help the player after they have been destroyed.
+2. The first level will be pretty easy. The ball will be quite slow, the bricks will be far
+from the paddle, and the paddle itself will be quite large. There will be ~18 blocks (3 x 6)
+[][][][][][]
+[][][][][][]
+All the blocks will break with one hit. However, there will not be power-ups in this initial
+level. The second level will have half the blocks take one hit before breaking, whereas the
+others take two hits to break. On this level, there will be 24 blocks. 
+[][][][][][]
+[][][][][][]
+[][][][][][]
+[][][][][][]
+The ones that take two hits to break will fall down, and if they hit the paddle on 
+their way down, then the paddle will lose a life. There will be power-ups on this level. Furthermore, 
+the ball will move 10% faster, and the extra row of blocks means that the blocks will be
+closer to the paddle. On the third level, there will be one row of blocks that takes 3 
+hits to break. Furthermore, a random block in the bottom row of blocks (the one that takes 3 hits)
+will fire a laser straight down. If this laser hits the paddle, the paddle will break. 
+Power-ups will also be on this 3rd level. The ball will also be 10% faster compared to the
+previous level. The 3rd level will have 24 blocks, as in the 2nd level. The fourth level will 
+be the final level and will have 2 layers of blocks. The bottom layer will take 3 hits for each
+block to destroy, and they will fall down. The top layer, however, will be comprised of one giant 
+block that will shoot lasers that are "guided" toward the paddle, as in they will travel in the 
+direction of the position of the paddle when the laser was initially finished. 
+This block will take 10-15 hits to break, and it will disappear completely. It also will
+teleport randomly from one side to another inside the top row. If the player beats 
+this level, they win the game. But, this level will not have power-ups, and the paddle is 20% smaller 
+compared to the previous level and the ball moves 15% faster. This level will look like this:
+[]          (This block teleports).    
+[][][][][][]
+
+3. There will be 6 blocks:
+-Block that takes one hit, and disappears instantly.
+-Block that takes two hits to break, and will fall down on the screen, with no power-up.
+-Block that takes two hits to break, will fall down, and has a power-up.
+-Block that takes three hits to break, and shoots lasers straight downwards.
+-Block that takes three hits to break, but does not shoot lasers at all.
+-Block that takes 10-15 hits to break, and has guided missiles.
+
+4. I plan to create 5 power-ups:
+-Make the paddle as long as the width of the screen so that the ball will not go out of bounds on the bottom.
+-Make the ball super-destructive so that it destroys all balls in its path until it hits the paddle again.
+-Make the paddle 50% faster.
+-Make a shotgun blast of 4 balls that go in 4 different directions but disappear after hitting one block.
+-The ball freezes in air and the paddle shoots lasers upwards constantly for 10 seconds.
+ Each laser inflicts one hit on the block it comes in contact with, and then it disappears.
+ 
+ 5. I plan to make 4 paddle abilities:
+ -Paddle becomes as long as the screen (by power-up).
+ -Paddle shoots lasers (by power-up).
+ -Paddle becomes 25% faster (for the last level). 
+ -Paddle moves from one end of screen to other side of screen: it wraps around (after 2nd level).
+ 
+ 6. I plan to make 5 cheat codes:
+ -Pressing letter 'R' resets ball to original position.
+ -Pressing letter 'I' makes the ball bounce off all walls, including the bottom.
+ -Pressing letter 'C' moves on to the next level. 
+ -Pressing number '5' spawns 5 different impervious balls that bounce off all walls and
+  hit the blocks.
+ -Pressing letter 'H' gives an extra life.
+ 
+7. My substantive addition is to make the blocks fight back. In the easier levels, they simply fall down
+and if they hit the paddle, they make the paddle lose a life. In the harder levels, the blocks shoot
+lasers, either straight down or aimed at the paddle. This addition makes the game more of an offense-defense
+game, which requires quick thinking to avoid the lasers and blocks AND still catch the ball. However, I do not
+think these additions will make the game overly hard which is why I think it will give the game higher replay
+value. Another small addition I made was to make a block teleport, which raises the difficulty of the game overall,
+otherwise it could be too easy and thus, boring. 
